@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba tecnica</title>
+</head>
+<body>
+    <h1>Fibonacci</h1>
+    <form>
+        <input type="number" name="fibo" id="fibo" style="width: 30px ;">
+    </form>
+    <button onclick="fiboWeb()">Numero Fibonacci</button>
+
+    <p id="fiboRespuesta">Aqui aparecera tu respuesta UvU</p>
+
+
+    <h1>Arreglo</h1>
+    <label for="tamañoArreglo">Ingrese el tamaño del arreglo que desea ingresar</label>
+    <br>
+    <input type="number" name="tamañoArreglo" id="tamañoArreglo" onchange="agregarCampos()" style="width: 30px ;">
+    <div id="camposArrelgo"></div>
+
+    <h1>Ditto</h1>
+    <div id="ditto"></div>
+
+    <h1>Puedo hacero :D</h1>
+    <form>
+        <input type="text" name="texto" id="texto">
+    </form>
+    <button onclick="iCouldDoIt()">I Could Do It Button</button>
+
+    <h1>Cumpleaños :3</h1>
+    <form>
+        <label for="date">Selecciona tu cumpleaños</label>
+        <br>
+        <input type="date" name="date" id="date" onchange="calcularCumpleaños()">
+    </form>
+    <p id="felicitaciones"></p>
+
+    
+    <script src="fibonacci.js"></script>
+    <script src="reordenar.js"></script>
+    <script src="pokemon.js"></script>
+    <script src="cambiar.js"></script>
+    <script src="cumpleaños.js"></script>
+</body>
+</html>
